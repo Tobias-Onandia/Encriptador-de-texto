@@ -1,0 +1,122 @@
+
+
+
+.vector{
+    margin-left: 10px;
+}
+
+
+.main {
+    display: inline-block;
+    width: 60%;
+    height: 500px;
+    text-align: center;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+
+
+.content-button{
+   margin-top: 410px;
+}
+
+
+
+#input{
+    border:none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300px;
+    font-size: 32px;
+    color: #0A3871;
+    outline: none;
+    width: 312px;
+}
+
+
+
+#input::placeholder{
+    color: #0A3871;
+}
+   
+
+#input:hover{
+    border-bottom: 2px solid #0B3971;
+}
+
+#input:focus{
+    border-bottom: 2px solid #0B3971;
+}
+
+
+
+.content-button > button{
+    margin-right: 40px;
+    margin-bottom: 5px;
+    border: 1px solid #0A3871;
+    border-radius: 15px;
+    width: 175px;
+    height:35px;
+}
+
+.encriptar{
+    background: #0A3871;
+    color: #fff;
+    transition: all 1s, border 0.2s;
+}
+
+.encriptar:hover{
+   height: 40px;
+   width: 190px;
+}
+
+.descriptar{
+    color: #0A3871;
+    transition: all 1s, border 0.2s;
+}
+
+.descriptar:hover{
+    height: 40px;
+    width: 190px;
+}
+
+
+
+
+.aside{
+    float: right;
+    margin-right: 3px;
+    width: 35%;
+    text-align: center;
+}
+
+
+.muñeco{
+    height: 301px;
+}
+
+
+.copiar{
+    margin-top: 25px;
+    border: 1px solid #0A3871;
+    border-radius: 15px;
+    width: 185px;
+    height:35px;
+    color: #0A3871;
+    transition: all 1s, border 0.3s;
+}  
+
+.copiar:hover{
+    height: 40px;
+    width: 190px;
+}
+
+
+#textArea{
+    height: 422px;
+    resize: none;
+    margin-right: 3px;
+    width: 35%;
+    text-align: center;
+}
